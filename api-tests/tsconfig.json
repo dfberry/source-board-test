@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "compilerOptions": {
+    "module": "Node16",
+    "target": "ESNext",
+    "types": ["jest"],
+    "isolatedModules": false,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "coverage", "dist"]
+}
